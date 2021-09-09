@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  background: linear-gradient(to right, white 50%, aqua 50%);
+}
+#avatar {
+  border-radius: 50%;
+}
+.glava {
+  text-align: center;
+}
+#shapka {
+  margin-top: 150px;
+  margin-bottom: 300px;
+  font-family: "Bebas Neue";
+  animation-name: scroll;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+}
+@keyframes scroll {
+  0% {
+    margin-top: -100px;
+    opacity: 0;
+  }
+  25% {
+    margin-top: 50px;
+    opacity: 0.3;
+  }
+  50% {
+    margin-top: 90px;
+    opacity: 0.6;
+  }
+  75% {
+    margin-top: 120px;
+    opacity: 0.9;
+  }
+  100% {
+    margin-top: 150px;
+    opacity: 1;
+  }
+}
+#infa {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14),
+    0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+  background-color: aqua;
+}
+.biography {
+  text-align: center;
+  font-family: "Allison", cursive;
+}
+.baltika {
+  box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14),
+    0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+}
+#exp {
+  margin-top: 200px;
+  margin-bottom: 100px;
+  box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14),
+    0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+  font-family: "Allison", cursive;
+  background-color: aqua;
+}
+.col {
+  text-align: center;
+}
+.gallery {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 200px;
+  width: 400px;
+  height: 400px;
+}
+#carouselExampleCaptions {
+  width: 350px;
+  height: 350px;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.social {
+  animation: social 1s infinite;
+  text-align: center;
+  background-color: aqua;
+}
+.icon {
+  color: bisque;
+}
+.social:hover {
+  animation: none;
+}
+
+@keyframes social {
+  0% {
+    box-shadow: 0 0 0 0 rgba(228, 25, 49, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(228, 25, 49, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(228, 25, 49, 0);
+  }
+}
+#rab {
+  background-color: white;
+}
+#rab:hover {
+  background-color: whitesmoke;
+}
